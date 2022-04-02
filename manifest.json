@@ -1,0 +1,44 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/actionIcon",
+      "Name": "Docker Toggle",
+      "States": [
+        {
+          "Image": "images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Composes a Docker project up or down depending on its current running state",
+      "UUID": "com.magnuspihl.plugin.action.DockerToggle"
+    }
+  ],
+  "Category": "Docker",
+  "CategoryIcon": "images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "Magnus Pihl",
+  "CodePathWin": "StreamDeckDockerPlugin.exe",
+  "CodePathMac": "StreamDeckDockerPlugin",
+  "PropertyInspectorPath": "property_inspector/property_inspector.html",
+  "Description": "Docker shortcuts",
+  "Name": "Docker",
+  "Icon": "images/pluginIcon",
+  "URL": "https://github.com/MagnusPihl/StreamDeckDocker",
+  "Version": "1.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}
